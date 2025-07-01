@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura con Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand text-danger fw-bold" href="#">Eirbianbi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Pricing">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-3">
+        <form class="row shadow-lg  rounded p-3">
+            <input class="form-control mb-2" type="text" placeholder="Default input" aria-label="default input example">
+            <input class="form-control mb-2" type="date" placeholder="Default input" aria-label="default input example">
+            <input class="form-control mb-2" type="date" placeholder="Default input" aria-label="default input example">
+            <input class="form-control mb-2" type="text" placeholder="Default input" aria-label="default input example">
+            <button type="submit" class="btn btn-danger">Buscar</button>
+        </form>
+
+        <div class="card mt-3" style="width: 18rem;">
+            <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <footer class="bg-light">
+            <div class="container">
+                <section class="row">
+                    <article>
+                        <h5>Asistencia</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#Centro-de-ayuda">Centro de ayuda</a></li>
+                            <li><a href="#Apoyo-discriminacion">Apoyo para discriminación</a></li>
+                            <li><a href="#Opciones-cancelaciones">Opciones de cancelaciones</a></li>
+                            <li><a href="#Problemas-en-la-zona">Problemas en la zona</a></li>
+                        </ul>
+                    </article>
+                </section>
+                <hr>
+                <section class="row">
+                    <p>© 2025 Eirbianbi, Inc</p>
+                    <article>
+                        <p>
+                            <a href="#Español">Español</a>
+                            <a href="#USD">USD</a>
+                            <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                            <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                            <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                        </p>
+                    </article>
+                </section>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
